@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trial 2.css">
+    <title>Application form</title>
+</head>
+<body>
+    <u class="underline"><h4 class="soud">ALBAURY APPLICATION FORM</h4></u>    
+    <form action="index 4.html" method="get" enctype="multipart/form-data">
+
+        <label for="username" class="fuad">username:</label>
+        <input type="text" id="username" name="username" maxlength="15" minlength="4" required placeholder="soud albaury" class="feisal"><br>
+
+        <br><label for="email" class="fuad">Email:</label>
+        <input type="email" id="email" name="email" placeholder="soud12@gmail.com" class="feisal"><br>
+
+        <br><label for="password" class="fuad">Password:</label>
+        <input type="password" id="password" name="password" required pattern="[0-9]{4}" placeholder="1234" class="feisal"><br>
+
+        <br><label for="birthday" class="fuad">Enter Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required class="feisal"><br>
+
+        <br><label for="phone" class="fuad">Phone no:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="0713876462" pattern="[0-9]{10}" class="feisal"><br>
+
+        <br><label for="title" class="fuad">Your Title:</label>
+        <label for="mr">Mr</label>
+        <input type="radio" id="mr" name="title">
+        <label for="miss">Miss</label>
+        <input type="radio" id="miss" name="title">
+        <label for="phd">Phd</label>
+        <input type="radio" id="phd" name="title"><br>
+
+        <br><label for="payment" class="fuad">payment:</label>
+        <select class="feisal">
+            <option value="creditcard">Credit card</option>
+            <option value="debitcard">Debit card</option>
+            <option value="visacard">Visa card</option>
+            <option value="giftcard">Gift card</option>   
+        </select><br>
+
+        <br><label for="file" class="fuad">Enter file:</label>
+        <input type="file" id="file" name="file" class="feisal"><br>
+
+        <br><label for="comment" class="fuad">Do you have special needs?</label>
+        <label for="YES">YES</label>
+        <input type="radio" id="YES" name="comment" required>
+        <label for="NO">NO</label>
+        <input type="radio" id="NO" name="comment" required><br>
+
+        <br><label for="special need comment" class="fuad">If yes, state your special needs:</label>
+        <input type="text" id="special need comment" name="comment" class="feisal"><br>
+
+        <br><input type="submit" class="feisal" id="mom" >
+
+        <input type="reset" class="feisal" id="mom"><br>
+
+        <p>You have reached the end of the application form.</p>
+        <p>Please wait for our reply which will take a couple of weeks.</p>
+        <p>We appreciate you for filling this form.</p>
+        <p>Thank you for your time.See you soon!!</p>
+    </form>
+</body>
+</html>

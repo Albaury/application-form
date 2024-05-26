@@ -1,0 +1,46 @@
+h4{
+    text-shadow: 1px 5px 6px blue
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    display: flow-root;
+}
+
+body{
+    background-image: url(C:\Users\soudf\OneDrive\Desktop\application form\trial 2.css);
+}
+.soud{
+    color: blue;
+    border-style:inset;
+    border-width: 3px;
+    border-radius: 25px;
+    display: flow-root;
+    margin-top: 25px;
+    width: 240px;
+
+}
+
+.fuad{
+    color: aquamarine;
+    background-color:tomato;
+    font-style:italic;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 25px;
+    border-bottom: 25px;
+    box-shadow: 3px 3px 5px red
+}
+
+.feisal{
+    border-radius: 25px;
+    display:initial ;
+}
+
+#mom:hover{
+    background-color: rgba(140, 232, 152, 0);
+}
+
+.feisal:hover{
+    background-color:darkgoldenrod;
+}
